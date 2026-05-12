@@ -22,6 +22,7 @@ GetItem = operator.getitem
 HardTanh = exir_ops.edge.aten.hardtanh.default
 HardTanh_ = exir_ops.edge.aten.hardtanh_.default
 MaxPool2DWithIndices = exir_ops.edge.aten.max_pool2d_with_indices.default
+MulTensor = exir_ops.edge.aten.mul.Tensor
 QuantizePerChannel = exir_ops.edge.quantized_decomposed.quantize_per_channel.default
 QuantizePerTensor = exir_ops.edge.quantized_decomposed.quantize_per_tensor.default
 Relu = exir_ops.edge.aten.relu.default
